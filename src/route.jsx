@@ -2,7 +2,7 @@ import {
     createBrowserRouter
 } from "react-router-dom";
 import Main from "./components/Layout/Main";
-import Home from "./components/Pages/Home/Home/Home";
+import Home from "./components/pages/Home/Home";
 
 export const router = createBrowserRouter([
     {
