@@ -1,5 +1,4 @@
 import feature from '../../../assets/home/featured.jpg'
-import SectionHeading from '../../compo/SectionHeading/SectionHeading';
 import './Featured.css'
 const Featured = () => {
     return (
@@ -15,7 +14,8 @@ const Featured = () => {
                         <p>March 20,2023</p>
                         <p>Where can i get some?</p>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis veniam neque, error doloremque esse eligendi unde recusandae quas beatae, animi ab provident perspiciatis ipsum repellendus?</p>
-                        <button className='feature-btn'>Read More</button>
+                        {/* <button className='feature-btn'>Read More</button> */}
+                        <button className='btn btn-outline text-white border-b-4 border-0 mt-8'>Read More</button>
                     </div>
                 </div>
             </div>
