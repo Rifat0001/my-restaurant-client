@@ -1,4 +1,5 @@
 import Testimonial from "../../Testimonial/Testimonial";
+import AboutMy from "../../compo/AboutMy";
 import CallUs from "../../compo/CallUs";
 import Recommend from "../../compo/Recommend";
 import Banner from "../Banner/Banner";
@@ -10,6 +11,7 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
+            <AboutMy></AboutMy>
             <Category></Category>
             <PopularMenu></PopularMenu>
             <CallUs></CallUs>

@@ -5,6 +5,13 @@
     background-size: cover;
 }
 
+.abt {
+    background-image: url('../../../assets/home/chef-service.jpg');
+    background-position: center center;
+    position: relative;
+    background-size: cover;
+}
+
 .overlay {
     background-color: rgba(0, 0, 0, 0.5);
     top: 0;
