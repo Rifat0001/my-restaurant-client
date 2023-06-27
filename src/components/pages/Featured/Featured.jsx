@@ -3,7 +3,7 @@ import SectionHeading from '../../compo/SectionHeading/SectionHeading';
 import './Featured.css'
 const Featured = () => {
     return (
-        <div className='feature mb-20'>
+        <div className='feature mb-20 bg-fixed'>
             <div className='overlay py-10'>
                 <SectionHeading
                     heading={'---Check it out---'}
@@ -21,7 +21,7 @@ const Featured = () => {
             </div>
 
         </div>
-    );
+    ); n
 };
 
 export default Featured;
