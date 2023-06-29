@@ -5,7 +5,6 @@ import dessertBg from '../../../assets/menu/dessert-bg.jpeg'
 import saladBg from '../../../assets/menu/salad-bg.jpg'
 import soupBg from '../../../assets/menu/soup-bg.jpg'
 import pizzaBg from '../../../assets/menu/pizza-bg.jpg'
-import MiddleCover from "../../compo/Cover/MiddleCover";
 import useMenu from "../../hooks/useMenu";
 import SectionHeading from "../../compo/SectionHeading/SectionHeading";
 import MenuCategory from "../../compo/Cover/MenuCategory";
