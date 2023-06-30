@@ -1,4 +1,3 @@
-import { Helmet } from "react-helmet-async";
 import Testimonial from "../../Testimonial/Testimonial";
 import AboutMy from "../../compo/AboutMy";
 import CallUs from "../../compo/CallUs";
@@ -7,7 +6,7 @@ import Banner from "../Banner/Banner";
 import Category from "../Category/Category";
 import Featured from "../Featured/Featured";
 import PopularMenu from "../PopularMenu/PopularMenu";
-
+import { Helmet } from "react-helmet-async";
 const Home = () => {
     return (
         <div>
