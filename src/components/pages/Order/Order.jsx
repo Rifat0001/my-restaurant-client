@@ -21,7 +21,6 @@ const Order = () => {
     const soup = menu.filter(item => item.category === 'soup');
     const salad = menu.filter(item => item.category === 'salad');
     const drinks = menu.filter(item => item.category === 'drinks');
-    const offered = menu.filter(item => item.category === 'offered');
     return (
         <div>
             <Helmet>
